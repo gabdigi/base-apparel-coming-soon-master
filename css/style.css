@@ -256,13 +256,15 @@ button {
 		height: 25px;
 		width: 25px;
 		border-radius: 50%;
-		top: -10px;
-		left: 70%;
+		top: -45px;
+    	left: 60%;
 		transition: 0.5s;
 		opacity: 0;
 	}
 
 	.danger-text {
+		position: absolute;
+    	top: 155%;
 		font-size: 12px;
 		font-weight: 600;
 		color: hsl(0, 59%, 72%);
@@ -310,8 +312,7 @@ button {
 		height: 25px;
 		width: 25px;
 		border-radius: 50%;
-		top: 10px;
-		left: 13%;
+		
 		transition: 0.5s;
 		opacity: 0;
 	}
@@ -336,6 +337,18 @@ button {
 		align-items: center;
 		justify-content: center;
 		float: center;
+	}
+
+	.danger-text {
+		position: absolute;
+    	top: 160%;
+		font-size: 12px;
+		font-weight: 600;
+		color: hsl(0, 59%, 72%);
+		padding: 0.8em 2rem;
+		transition: 0.5s;
+		opacity: 0;
+
 	}
 
 
